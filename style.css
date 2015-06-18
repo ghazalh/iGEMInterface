@@ -1,0 +1,128 @@
+/* GENERAL */
+
+h1 {
+background: rgba(255,255,255,0.2);
+
+ 
+  text-align: center;
+  font-size: 175%;
+  color: rgba(100,255,113,0.6);
+  text-shadow: 0 2px 2px #000;
+}
+/*
+body {
+    
+  height: screen.height;
+  width: screen.width;
+    background: radial-gradient(ellipse at bottom left, rgba(104,128,138,0.4) 10%, rgba(138,114,76,0) 40%), linear-gradient(to bottom, rgba(57,173,219,.25), rgba(42,60,87,0.4)), linear-gradient(135deg, #670d10, #092756);
+}
+*/
+/*SIDEBAR*/
+.sidebar {
+    position: absolute;
+/* Change :absolute; to :fixed; to keep the sidebar in place when scolling. */
+    background: rgba(255,255,255,0.2);
+  
+/* Sidebar Background */
+    width: 240px;
+/* Width of side bar. WARNING: If you change this, change .listItemA:width */
+    height: 140%;
+    padding-top: 0px;
+/* Padding above the sidebar image. */
+    font-family:  "Times New Roman", Times, serif;
+/* Font for the sidebar (Remove to keep the same font as the rest of the document) */
+  color: #fff;
+  text-shadow: 0 2px 2px #808080;
+  text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+  float:center;
+/* Removes the underline from links. */
+    color: rgb(0,0,0);
+  vertical-align:center;
+/* Text color of the menu items */
+}
+
+.sidebar img {
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 20px;
+}
+
+.sidebar ul {
+    line-height: 40px;
+    overflow: hidden;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    background: rgba(100,255,113,0.2);
+/* Background colour of the menu items. */position:absolute;
+    color: #695D46;
+ 
+  width:180px;
+  left:30px;
+  right:200;
+/* Text colour of the side bar titles. (Not the links). */
+transition: .3s;}
+
+.listItemA {
+    height: 40px;
+    width: 220px;
+/* Alter this to be the .sidebar:width PLUS 40 */
+    transition: .3s;
+/* Speed of the hover animation */
+    position: relative;
+    
+}
+
+.sidebar ul li:hover {
+width: 240px;
+left:0px;
+  .listItemA:hover {
+    width: 10px;
+  left:0px;
+  
+}
+}
+
+
+.inputbox {
+    width:150px;
+  position: relative;
+ 
+}
+
+.inputbox2 {
+    width:150px;
+  position: relative;
+ 
+}
+
+.inputbox3 {
+    width:150px;
+  position: relative;
+ 
+}
+/*
+.node {
+  
+  stroke: #D6FF5C;
+  stroke-width: 7.5px;
+  stroke-opacity:0.4;
+  
+}
+*/
+
+.link {
+  stroke: #eb7260;
+  stroke-opacity: 0.6;
+}
+
+
